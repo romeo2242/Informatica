@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hotel Cuneo</title>
+</head>
+<body>
+    <form name="f1" action="hotel.php" method="get">
+        <h1>Hotel</h1>
+        Cognome:&nbsp;<input type="text" name="cognome" value=""><br>
+        Nome:&nbsp;<input type="text" name="nome" value=""><br>
+        Email:&nbsp;<input type="email" name="email" value=""><br>
+        Numero persone:&nbsp;<input type="text" name="numero" value=""><br>
+        Hotel&nbsp;:
+        <select name="hotel">
+            <option value="1">Palazzo Lovera</option>
+            <option value="2">Il Poderino</option>
+            <option value="3">Il Rosso E Il Blu</option>
+        </select><br>
+        Tipo hotel:&nbsp;
+        <input type="radio" name="tipo" value="1">Hotel&nbsp;
+        <input type="radio" name="tipo" value="2">Casa/Appartamento&nbsp;
+        <input type="radio" name="tipo" value="3">Bed&Breakfast<br>
+        Optional:
+        <input type="checkbox" name="optional" value="1">Colazione gratis&nbsp;
+        <input type="checkbox" name="optional" value="2">Paga in hotel&nbsp;
+        <input type="checkbox" name="optional" value="3">Animali ammessi&nbsp;
+        <input type="checkbox" name="optional" value="4">Wifi gratis&nbsp;
+        <input type="checkbox" name="optional" value="5">Parcheggio<br>
+        Immagine:&nbsp;<input type="file" name="nomeFile">
+        <input type="submit" name="bInvia" value="invia">
+    </form>
+</body>
+
+
+</html>
