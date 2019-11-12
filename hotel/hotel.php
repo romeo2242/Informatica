@@ -7,7 +7,7 @@
     $email = $_REQUEST["email"];
     $numero = $_REQUEST["numero"];
 
-    $marca = $_REQUEST["hotel"];
+    $hotel = $_REQUEST["hotel"];
     $tipo = $_REQUEST["tipo"];
 
     $optional = $_REQUEST["optional"];
