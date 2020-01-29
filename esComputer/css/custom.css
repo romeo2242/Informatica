@@ -1,0 +1,21 @@
+.green {
+    background-color: green;
+    }
+
+.yellow {
+        background-color: yellow;
+}
+
+.red {
+    background-color: red;
+}
+
+.violet {
+    background-color: violet;
+}
+
+#larghezzaRiga {
+    border: 20px solid red;
+    padding: 30px dashed blue;
+    margin: 40px dotted violet;
+}
